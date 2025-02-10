@@ -1,4 +1,4 @@
-# 100 Nasa.gov URLs
+# 100 Nasa.gov API URLs
 ### Joshua Greenfield (Prompt Engineer)
 ###### 
 This was pulled from a webcrawler made with Cheerio.js & Qwen2.5-Max.

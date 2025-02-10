@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>NASA URLs</title>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+<script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+<script>
+$(document).ready( function () {
+    $('#nasaTable').DataTable();
+} );
+</script>
+</head>
+<body>
+<div>
+  <h1>100 NASA.gov API URLs</h1>
+
+  <h3>Joshua Greenfield (Prompt Engineer)</h3>
+  <p>
+    This was pulled from a webcrawler made with Cheerio.js & Qwen2.5-Max.
+I editied the markdown file until it had [NASA.gov](https://www.api.nasa.gov) for each.
+    Contributed to manual markdown and html clean-up and polishing iterations.
+  </p>
+
+  <h3>Gemini 2.0 Flash</h3>
+  <p>
+    Joshua prompted Gemini for replacing the [NASA.gov] with a custom anchor text based upon the end of the URL for each row.
+    Joshua prompted Gemini for a conversion of the markdown to html.
+  </p>
+  
+
+</div>
+<table id="nasaTable" class="display">
+    <thead>
+        <tr>
+            <th>Link Text</th>
+            <th>URL</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td>NASA API</td><td><a href="https://api.nasa.gov/">https://api.nasa.gov/</a></td></tr>
+        <tr><td>NASA Main Content</td><td><a href="https://api.nasa.gov/#main-content">https://api.nasa.gov/#main-content</a></td></tr>
+        <tr><td>NASA Sign Up</td><td><a href="https://api.nasa.gov/#signUp">https://api.nasa.gov/#signUp</a></td></tr>
+        <tr><td>NASA Authentication</td><td><a href="https://api.nasa.gov/#authentication">https://api.nasa.gov/#authentication</a></td></tr>
+        <tr><td>NASA Recovery</td><td><a href="https://api.nasa.gov/#recovery">https://api.nasa.gov/#recovery</a></td></tr>
+        <tr><td>NASA Browse API</td><td><a href="https://api.nasa.gov/#browseAPI">https://api.nasa.gov/#browseAPI</a></td></tr>
+        <tr><td>NASA APOD</td><td><a href="https://api.nasa.gov/#apod">https://api.nasa.gov/#apod</a></td></tr>
+        <tr><td>NASA Asteroids NEOWS</td><td><a href="https://api.nasa.gov/#asteroids-neows">https://api.nasa.gov/#asteroids-neows</a></td></tr>
+        <tr><td>NASA DONKI</td><td><a href="https://api.nasa.gov/#donki">https://api.nasa.gov/#donki</a></td></tr>
+        <tr><td>NASA Earth</td><td><a href="https://api.nasa.gov/#earth">https://api.nasa.gov/#earth</a></td></tr>
+        <tr><td>NASA EONET</td><td><a href="https://api.nasa.gov/#eonet">https://api.nasa.gov/#eonet</a></td></tr>
+        <tr><td>NASA EPIC</td><td><a href="https://api.nasa.gov/#epic">https://api.nasa.gov/#epic</a></td></tr>
+        <tr><td>NASA Exoplanet</td><td><a href="https://api.nasa.gov/#exoplanet">https://api.nasa.gov/#exoplanet</a></td></tr>
+        <tr><td>NASA Open Science Data Repository</td><td><a href="https://api.nasa.gov/#open-science-data-repository">https://api.nasa.gov/#open-science-data-repository</a></td></tr>
+        <tr><td>NASA Insight</td><td><a href="https://api.nasa.gov/#insight">https://api.nasa.gov/#insight</a></td></tr>
+        <tr><td>NASA Mars Rover Photos</td><td><a href="https://api.nasa.gov/#mars-rover-photos">https://api.nasa.gov/#mars-rover-photos</a></td></tr>
+        <tr><td>NASA Image and Video Library</td><td><a href="https://api.nasa.gov/#nasa-image-and-video-library">https://api.nasa.gov/#nasa-image-and-video-library</a></td></tr>
+        <tr><td>NASA TechTransfer</td><td><a href="https://api.nasa.gov/#techtransfer">https://api.nasa.gov/#techtransfer</a></td></tr>
+        <tr><td>NASA Satellite Situation Center</td><td><a href="https://api.nasa.gov/#satellite-situation-center">https://api.nasa.gov/#satellite-situation-center</a></td></tr>
+        <tr><td>NASA SSD CNEOS</td><td><a href="https://api.nasa.gov/#ssd-cneos">https://api.nasa.gov/#ssd-cneos</a></td></tr>
+        <tr><td>NASA TechPort</td><td><a href="https://api.nasa.gov/#techport">https://api.nasa.gov/#techport</a></td></tr>
+        <tr><td>NASA TLE API</td><td><a href="https://api.nasa.gov/#tle-api">https://api.nasa.gov/#tle-api</a></td></tr>
+        <tr><td>NASA Vesta Moon Mars Trek WMTS</td><td><a href="https://api.nasa.gov/#vesta-moon-mars-trek-wmts">https://api.nasa.gov/#vesta-moon-mars-trek-wmts</a></td></tr>
+        <tr><td>NASA Planetary APOD</td><td><a href="https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY">https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY</a></td></tr>
+        <tr><td>NASA NEO Feed</td><td><a href="https://api.nasa.gov/neo/rest/v1/feed?start_date=2015-09-07&end_date=2015-09-08&api_key=DEMO_KEY">https://api.nasa.gov/neo/rest/v1/feed?start_date=2015-09-07&end_date=2015-09-08&api_key=DEMO_KEY</a></td></tr>
+        <tr><td>NASA NEO 3542519</td><td><a href="https://api.nasa.gov/neo/rest/v1/neo/3542519?api_key=DEMO_KEY">https://api.nasa.gov/neo/rest/v1/neo/3542519?api_key=DEMO_KEY</a></td></tr>
+        <tr><td>NASA NEO Browse</td><td><a href="https://api.nasa.gov/neo/rest/v1/neo/browse?api_key=DEMO_KEY">https://api.nasa.gov/neo/rest/v1/neo/browse?api_key=DEMO_KEY</a></td></tr>
+        <tr><td>NASA DONKI CME</td><td><a href="https://api.nasa.gov/#donkiCME">https://api.nasa.gov/#donkiCME</a></td></tr>
+        <tr><td>NASA DONKI CME Data</td><td><a href="https://api.nasa.gov/DONKI/CME?startDate=2017-01-03&endDate=2017-01-03&api_key=DEMO_KEY">https://api.nasa.gov/DONKI/CME?startDate=2017-01-03&endDate=2017-01-03&api_key=DEMO_KEY</a></td></tr>
+        <tr><td>NASA DONKI CME Analysis</td><td><a href="https://api.nasa.gov/#donkiCMEAnalysis">https://api.nasa.gov/#donkiCMEAnalysis</a></td></tr>
+        <tr><td>NASA DONKI CME Analysis Data</td><td><a href="https://api.nasa.gov/DONKI/CMEAnalysis?startDate=2016-09-01&endDate=2016-09-30&mostAccurateOnly=true&speed=500&halfAngle=30&catalog=ALL&api_key=DEMO_KEY">https://api.nasa.gov/DONKI/CMEAnalysis?startDate=2016-09-01&endDate=2016-09-30&mostAccurateOnly=true&speed=500&halfAngle=30&catalog=ALL&api_key=DEMO_KEY</a></td></tr>
+        <tr><td>NASA DONKI GST</td><td><a href="https://api.nasa.gov/#donkiGST">https://api.nasa.gov/#donkiGST</a></td></tr>
+        <tr><td>NASA DONKI GST Data</td><td><a href="https://api.nasa.gov/DONKI/GST?startDate=2016-01-01&endDate=2016-01-30&api_key=DEMO_KEY">https://api.nasa.gov/DONKI/GST?startDate=2016-01-01&endDate=2016-01-30&api_key=DEMO_KEY</a></td></tr>
+        <tr><td>NASA DONKI IPS</td><td><a href="https://api.nasa.gov/#donkiIPS">https://api.nasa.gov/#donkiIPS</a></td></tr>
+    </tbody>
+</table>
+
+</body>
+</html>
